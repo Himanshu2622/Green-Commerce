@@ -54,8 +54,8 @@ Our project integrates a web-based e-commerce platform with Amazon, with a focus
 
 ## Tech Stack
 - ReactJs
-- html 
-- Css
+- HTML
+- CSS
 - AWS
 - Canva
 - GitHub
