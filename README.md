@@ -34,9 +34,9 @@ Our project integrates a web-based e-commerce platform with Amazon, with a focus
     - Seller: In this section Amazon sellers can enlist their products in the Greenovation Zone after providing details about the manufacturing of their products.
       <p align="center"><img src="/public/images/sellgif.gif" width="700" alt="Alt Text"></p>
     - Educational Section: This section aims to inform and educate customers about our ZERO WASTE INITIATIVE. <br>
-        <p align="center"><img src="/screenshots/edugif.gif" width="700" alt="Alt Text"></p>
+        <p align="center"><img src="/public/images/edugif.gif" width="700" alt="Alt Text"></p>
     - Sustainability Reports: Consists of Amazon's annual sustainability reports and the initiatives that it takes to reduce its carbon footprint. <br><br>
-        <p align="center"><img src="/screenshots/sustainability.gif" width="700" alt="Alt Text"></p>
+        <p align="center"><img src="/public/images/sustainability.gif" width="700" alt="Alt Text"></p>
 - When a greenovation product is added to the cart it is accomapnied by an "Eco-Friendly" sign.
 - After the product is received, two new buttons, "Feedback" and "Return the box", are also available on the website.
     - Feedback: This allows the customers to give their reviews or report products that are incorrectly labeled.
