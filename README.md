@@ -41,6 +41,7 @@ Our project integrates a web-based e-commerce platform with Amazon, with a focus
     - Sustainability Reports: Consists of Amazon's annual sustainability reports and the initiatives that it takes to reduce its carbon footprint. <br><br>
         <p align="center"><img src="/public/images/sustainability.gif" width="700" alt="Alt Text"></p>
 - When a greenovation product is added to the cart it is accomapnied by an "Eco-Friendly" sign.
+      <p align="center"><img src="/public/images/ecogif.gif" width="700" alt="Alt Text"></p>
 - After the product is received, two new buttons, "Feedback" and "Return the box", are also available on the website.
     - Feedback: This allows the customers to give their reviews or report products that are incorrectly labeled.
     - Return the box: After enough number of customers click this buttton, and a pre-decided threshold of that area is reached, the customer is notified with the date and time of pick-up.<br>
