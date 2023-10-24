@@ -1,0 +1,87 @@
+.Susback{
+  background-color: #F4F0F0;
+}
+
+.links{
+  background-color: #F4F0F0;
+  position: relative; 
+  top:-10.5rem;
+  left: 1rem;
+}
+
+.links span{
+  font-family: 'Font Name', Arial;
+  font-size: 23px;
+  color:rgb(110, 108, 108);
+  margin-right: 35px;
+}
+
+.links a {
+  font-family: 'Font Name', sans-serif;
+  color:rgb(110, 108, 108);
+  font-size: 23px;
+  margin-right: 20px;
+  text-decoration: none;
+  display: "inline";
+}
+
+
+.links a:hover {
+  color:rgb(37, 36, 36);
+}
+
+
+.Overview{
+  
+  position :relative;
+  top:-1rem;
+  left:8rem;
+}
+.Results{
+  
+  position :relative;
+  top:-3rem;
+  left:8rem;
+}
+
+.parameters {
+  display: flex;
+  position: relative;
+  top:-5rem;
+}
+.one{
+  background-color: #DCEBD1;
+  margin-right:50px;
+  margin-left: 50px;
+  width:375px;
+  height:192px;
+  padding: 10px;
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two{
+  background-color: #DCEBD1;
+  margin-right:50px;
+  margin-left: 50px;
+  width:375px;
+  height:192px;
+  padding: 10px;
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three{
+  background-color: #DCEBD1;
+  margin-right:50px;
+  margin-left: 50px;
+  width:375px;
+  height:192px;
+  padding: 10px;
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
