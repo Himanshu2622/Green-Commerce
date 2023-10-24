@@ -1,71 +1,62 @@
-# Getting Started with Create React App
+# Green Commerce with Amazon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## PROJECT OVERVIEW: 
 
-## Available Scripts
+Our project integrates a web-based e-commerce platform with Amazon, with a focus on sustainability and environmentally friendly products. This project aims to integrate a separate section for green products, a badge rating system to showcase the product's environmental impact, and a box return system to encourage recycling and reduce waste.
 
-In the project directory, you can run:
+## Key Objectives
+- Green Product Section: Provide a dedicated section for green and eco-friendly products, allowing users to browse and shop for sustainable items easily.
+- Badge Rating System: Implement a badge system that rates products based on their eco-friendliness. These badges should help customers identify environmentally responsible products.
+- Box Return System:  Promote sustainability by encouraging users to return packaging boxes for reuse or recycling. This reduces waste and supports a more eco-conscious supply chain.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Separate platform for eco-friendly products
+- Badge system and third party verification
+- Transparency in product manufacturing parameters
+- Packaging box return system
+- User dashboard and Gift coupons
+- Educational section
+- Feeback and Notifications system
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Guide
 
-### `npm run build`
+- This button in the main amazon website takes us to "Greenovation Zone", the new section for eco friendly products.<br>
+    <p align="center"><img src="/screenshots/greenovation_button.gif" width="700" alt="Alt Text"></p>
+- If an alternative greenovation product for an ordinary product is available, this button will take the customers to that product.<br>
+    <p align="center"><img src="/screenshots/available_button.gif" width="700" alt="Alt Text"></p>
+- Inside the Greenovation Zone, the products are assigned these badges that rate them according to their sustainability levels.<br>
+- Customers can see futher details about the manufacturing parameters of the product after hovering over the badge.<br>
+    <p align="center"><img src="/screenshots/badge.gif" width="700" alt="Alt Text"></p>
+- The greenovation navigation bar contains new sections like<br>
+    - Seller: In this section Amazon sellers can enlist their products in the Greenovation Zone after providing details about the manufacturing of their products.
+      <p align="center"><img src="/screenshots/sellgif.gif" width="700" alt="Alt Text"></p>
+    - Educational Section: This section aims to inform and educate customers about our ZERO WASTE INITIATIVE. <br>
+        <p align="center"><img src="/screenshots/edugif.gif" width="700" alt="Alt Text"></p>
+    - Sustainability Reports: Consists of Amazon's annual sustainability reports and the initiatives that it takes to reduce its carbon footprint. <br><br>
+        <p align="center"><img src="/screenshots/sustainability.gif" width="700" alt="Alt Text"></p>
+- When a greenovation product is added to the cart it is accomapnied by an "Eco-Friendly" sign.
+- After the product is received, two new buttons, "Feedback" and "Return the box", are also available on the website.
+    - Feedback: This allows the customers to give their reviews or report products that are incorrectly labeled.
+    - Return the box: After enough number of customers click this buttton, and a pre-decided threshold of that area is reached, the customer is notified with the date and time of pick-up.<br>
+    <p align="center"><img src="/screenshots/feedgif.gif" width="700" alt="Alt Text"></p>
+- When the boxes are collected, the customer is awarded with green bits, which can later be used for redeeming coupons and offers. Customers can keep track of     their green bits and other sustainability statistics with the help of this dashboard.<br>
+    <p align="center"><img src="/screenshots/dashboard.gif" width="700" alt="Alt Text"></p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
+- ReactJs
+- html 
+- Css
+- AWS
+- Canva
+- GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Scope
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Personalization*: Implement personalization features to tailor product recommendations and content based on user preferences and browsing history. Machine learning and AI can play a significant role in achieving this.
 
-### `npm run eject`
+*Machine Learning and AI*: Explore the use of machine learning and artificial intelligence for predicting user preferences, optimizing product recommendations, and automating certain tasks, such as classifying products based on their eco-friendliness.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Green-Commerce
+*Internationalization*: Consider expanding to international markets and adding support for multiple languages and currencies.
