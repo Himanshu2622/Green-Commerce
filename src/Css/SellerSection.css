@@ -1,0 +1,83 @@
+/* SellerSection.css */
+
+.seller-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .seller-image {
+    width: 102%;
+    /* height: 450px; Adjust the maximum width as needed */
+  }
+
+  .seller-image2 {
+    background-color: #eaeded;
+    width: 96%;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    /* height: 450px; Adjust the maximum width as needed */
+  }
+  .seller-info {
+    padding: 20px;
+    background-color: #eaeded;
+    border-radius: 5px;
+    width: 100%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+
+  .seller-info h2 {
+    font-size: 41px;
+  }
+  
+  .seller-form {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_question {
+    text-align: left;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  .buttonxyz {
+    background-color: #febd69;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 0;
+    border-width: 0px;
+    border-radius:5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    /* font-weight: 500; */
+    font-weight: bold;
+  }
+
+  .buttonxyz:hover {
+    background-color: #f9c989;
+  }
+  

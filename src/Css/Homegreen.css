@@ -1,0 +1,25 @@
+.homeg {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2000px;
+}
+
+.home__imageg {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.badge {
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+.home__rowg {
+  display: flex;
+  /* Remove z-index and margin properties */
+  /* Ensure there are no conflicting styles affecting product size */
+}

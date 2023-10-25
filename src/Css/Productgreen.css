@@ -1,0 +1,127 @@
+.productg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 500px;
+  min-width: 100px;
+  background-color: white;
+  z-index: revert;
+}
+
+.product__rating {
+  display: flex;
+}
+
+.productg > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.productg > button {
+  background-color: #febd69;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border: 0;
+  border-width: 0px;
+  border-radius:5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  /* font-weight: 500; */
+  font-weight: bold;
+}
+
+.productg > button:hover {
+  background-color: #f9c989;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.eco_details {
+  width: 100%;
+  color: #6a6a6a;
+}
+
+.eco_image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.carbon_details {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  text-align: center;
+}
+
+.badge_details {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  text-align: center;
+}
+
+.eco_text {
+  padding-top: 2px;
+}
+
+.popover_trigger {
+  position: relative;
+  display: flex;
+}
+
+.popover_content {
+  position: absolute;
+  background-color: #ffffff;
+  transform: translate(10%,-103%);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 1;
+}
+.popover_content_image {
+  border-radius: 8px;
+}
+
+.popover_trigger:hover .popover_content {
+  display: block;
+}
+
+.badge_info_popover_content_nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  color: black;
+  font-weight: 500;
+  background-color: #eaeded;
+  transform: translate(55%,-85%);
+  padding: 20px 20px 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+  display:block;
+  z-index: 2;
+  text-align: center;
+}
+
+.badge_info_triangle {
+  position: absolute;
+  left: -3.5%;
+  top: 77%;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid #eaeded;
+}
