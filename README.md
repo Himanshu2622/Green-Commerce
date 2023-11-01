@@ -1,7 +1,7 @@
 # Green Commerce with Amazon
 
 ### Website: 
-<a href ="http://ec2-13-232-217-240.ap-south-1.compute.amazonaws.com/" target="_blank">Green-Commerce </a>
+<a href ="http://ec2-65-0-20-112.ap-south-1.compute.amazonaws.com/" target="_blank">Green-Commerce </a>
 
 ### Idea Submission:
 [Idea](https://drive.google.com/file/d/1A33DEgFVyOefUFPGKBImGvQGwiPUcoru/view?usp=drive_link)
