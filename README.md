@@ -1,6 +1,6 @@
 # Green Commerce with Amazon
 
-##🏆 WINNERS OF HACKON WITH AMAZON SEASON 3! 🏆
+## 🏆 WINNERS OF HACKON WITH AMAZON SEASON 3! 🏆
 ### Team Name: THE VOYAGERS
 ### Team Members:
 - Himanshu Srivastava
