@@ -29,9 +29,9 @@ Our project integrates a web-based e-commerce platform with Amazon, with a focus
 - Badge system and third party verification
 - Transparency in product manufacturing parameters
 - Packaging box return system
-- User dashboard and Gift coupons
+- User dashboard and gift coupons
 - Educational section
-- Feeback and Notifications system
+- Feeback and notifications system
 
 
 
